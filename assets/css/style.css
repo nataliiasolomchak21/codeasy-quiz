@@ -58,3 +58,12 @@ header {
     font-size: 1.5rem;
     font-weight: 600;
 }
+
+/* Main content */
+main {
+    /* Pushes down the footer */
+    flex: 1 0 auto;
+    /* Allows child elements to have flex properties */
+    display: flex;
+    flex-direction: column;
+}
