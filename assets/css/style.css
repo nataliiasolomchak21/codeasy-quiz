@@ -1,4 +1,4 @@
-/* Google fonts import */
+/* Google font import */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
 
 /* Asterisk is used to override browser's default styling */
@@ -13,7 +13,31 @@
 
 :root{
     --main-color: #6688de;
-    --text-color: #170e3c;
     --bg-color: #ffffff;
     --shadow-color: rgba(0, 0, 0, .2);
+}
+
+/* General styles */
+body {
+    background-color: var(--bg-color);
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+h1 {
+    color: var(--main-color);
+}
+
+button {
+    width: 9rem;
+    height: 2.5rem;
+    background-color: var(--main-color);
+    color: var(--bg-color);
+    border-color: none;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+button a {
+    color: var(--bg-color);
 }
