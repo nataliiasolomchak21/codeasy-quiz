@@ -337,7 +337,7 @@ main {
     .home-container h1 {
         font-size: 2rem;
     }
-
+    /* Makes home-box bigger to look better on tablet */
     .home-box {
         width: 31rem;
         height: 7rem;
@@ -351,6 +351,25 @@ main {
         width: 26rem;
         height: 2.5rem;
     }
+    /* Quiz box */
+    .quiz-box {
+        margin-top: -4rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .quiz-header {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+    
+    .question-heading {
+        font-size: 1.3rem;
+        text-align: center;
+        /* Sets the maximum width the element can take up */
+        max-width: 32rem;
+    }
+
 }
 
 
