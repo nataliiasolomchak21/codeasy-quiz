@@ -141,6 +141,12 @@ main {
     margin-top: 3rem;
 }
 
+/* Makes the div visible when the "Start Quiz" button is clicked */
+.quiz-box.active {
+    opacity: 1;
+    pointer-events: auto;
+}
+
 /* Footer */
 #social-media {
     position: absolute;
