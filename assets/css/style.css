@@ -342,6 +342,15 @@ main {
         width: 31rem;
         height: 7rem;
     }
+
+    .username-label {
+        font-size: 1.3rem;
+    }
+    
+    .text-input {
+        width: 26rem;
+        height: 2.5rem;
+    }
 }
 
 
