@@ -230,6 +230,12 @@ main {
     pointer-events: none;
 }
 
+/* Makes the div visible when the last "Next" button is clicked */
+.score-box.active {
+    opacity: 1;
+    pointer-events: auto;
+}
+
 /* Footer */
 #social-media {
     position: absolute;
