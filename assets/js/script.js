@@ -13,12 +13,12 @@ function startQuiz() {
     }
 }
 
-startQuiz();
+startQuiz()
 
 //Changes questions from 1 to 15
-let questionsCount = 0;
-let questionsNumb = 1;
-let userScore = 0;
+let questionsCount = 0
+let questionsNumb = 1
+let userScore = 0
 
 const nextBtn = document.querySelector('.next-btn')
 
@@ -66,9 +66,9 @@ function showQuizQuestions(index) {
      * The code for this part of the function is taken from Codehal's Quiz Website Youtube video
      * Loops through all elements with class "answer" and attaches a click handler to each one
      */
-    const answer = document.querySelectorAll('.answer');
+    const answer = document.querySelectorAll('.answer')
     for(let i = 0; i < answer.length; i++) {
-        answer[i].setAttribute('onclick', 'answerSelected(this)');
+        answer[i].setAttribute('onclick', 'answerSelected(this)')
     }
 }
 
@@ -100,7 +100,7 @@ function answerSelected(answer) {
         answersList.children[i].classList.add('disabled')
     }
     //Enables to go to the next question if user has selected
-    nextBtn.classList.add('active');
+    nextBtn.classList.add('active')
 }
 
 //Changes the question number from 1 to 15
@@ -139,8 +139,8 @@ function tryAgainBtn() {
         questionsNumb = 1;
         userScore = 0;
         //Displays the first question again and resets the question number indicator
-        showQuizQuestions(questionsCount);
-        questionIndicator(questionsNumb);
+        showQuizQuestions(questionsCount)
+        questionIndicator(questionsNumb)
     }
 }
 
