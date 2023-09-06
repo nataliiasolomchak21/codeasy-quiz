@@ -184,6 +184,13 @@ main {
     border: 2px solid #19B457;
 }
 
+/* Adds color when the user answer is incorrect */
+.answers-list .answer.wrong {
+    background-color: var(--bg-color);
+    color: #C4133D;
+    border: 2px solid #C4133D;
+}
+
 .quiz-box .next-btn {
     margin-left: auto;
     margin-right: auto;
