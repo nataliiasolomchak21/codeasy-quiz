@@ -386,6 +386,20 @@ main {
         font-size: 1rem;
     }
 
+    /* Quiz Guide page */
+    .quiz-guide {
+        text-align: center;
+        padding: 5rem;
+    }
+
+    .quiz-guide h2 {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .quiz-guide li {
+        font-size: 1.2rem;
+    }
 }
 
 
