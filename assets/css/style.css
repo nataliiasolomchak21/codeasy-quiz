@@ -251,6 +251,22 @@ main {
     margin-bottom: 2rem;
 }
 
+.score-box .username-label {
+    margin-bottom: .4rem;
+    font-size: .8rem;
+    color: var(--main-color);
+    font-weight: 500;
+}
+
+.score-box .text-input {
+    margin-bottom: 2rem;
+    width: 15rem;
+    height: 2.5rem;
+    border: 2px solid var(--main-color);
+    border-radius: 0.6rem;
+    padding: .5rem;
+}
+
 /* Footer */
 #social-media {
     position: absolute;
