@@ -8,8 +8,11 @@ function startQuiz() {
     startBtn.onclick = () => {
         quizBox.classList.add('active')
 
+        showQuizQuestions(0);
     }
 }
+
+startQuiz();
 
 //Shows user quiz questions
 const answersList = document.querySelector('.answers-list')
