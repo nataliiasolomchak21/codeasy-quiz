@@ -413,4 +413,10 @@ main {
     }
 }
 
+@media screen and (min-width: 1600px) {
+    .home-container {
+        padding-top: 3rem;
+    }
+}
+
 
