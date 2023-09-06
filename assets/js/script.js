@@ -124,3 +124,22 @@ function showQuizResultBox() {
 
     showQuizResult()
 }
+
+//Enables user to start quiz again
+function tryAgainBtn() {
+    const tryAgainBtn = document.querySelector('.try-again-btn')
+
+    tryAgainBtn.onclick = () => {
+        scoreBox.classList.remove('active')
+        quizBox.classList.add('active')
+        nextBtn.classList.remove('active')
+
+        questionsCount = 0;
+        questionsNumb = 1;
+        userScore = 0;
+        showQuizQuestions(questionsCount);
+        questionIndicator(questionsNumb);
+    }
+}
+
+tryAgainBtn()
