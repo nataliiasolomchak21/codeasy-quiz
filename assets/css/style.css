@@ -147,14 +147,14 @@ main {
     pointer-events: auto;
 }
 
-.quiz-header {
+.quiz-header .question-score{
     font-size: 1.5rem;
     font-weight: 600;
     margin-bottom: 1rem;
     color: var(--main-color);
 }
 
-.quiz-heading {
+.question-heading {
     font-size: 1.125rem;
     color: var(--main-color);
     font-weight: 500;
