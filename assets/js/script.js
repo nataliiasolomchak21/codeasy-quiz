@@ -96,4 +96,6 @@ function answerSelected(answer) {
     for (let i = 0; i < allAnswers; i++) {
         answersList.children[i].classList.add('disabled');
     }
+    //Enables to go to the next question if user has selected
+    nextBtn.classList.add('active');
 }
