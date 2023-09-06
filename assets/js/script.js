@@ -49,3 +49,32 @@ function showQuizQuestions(index) {
         answer[i].setAttribute('onclick', 'answerSelected(this)');
     }
 }
+
+/**
+ * The answerSelected function code is taken from Codehal's Quiz Website Youtube video
+ * Gets the user's selected answer text from the clicked element
+ * Gets the correct answer for the current question from the questions array
+ * Checks if user answer matches correct answer
+ */
+function answerSelected(answer) {
+    let userAnswer = answer.textContent;
+    let correctAnswer = questions[questionsCount].correctAnswer;
+    let allAnswers = answersList.children.length;
+    if (userAnswer === correctAnswer) {
+        answer.classList.add('correct');
+        userScore += 1;
+    } else {
+        answer.classList.add('wrong');
+
+        //Auto selects the correct answer if the user has selected incorrect one
+        for (let i = 0; i < allAnswers; i++) {
+            if (answersList.children[i].textContent === correctAnswer) {
+                answersList.children[i].setAttribute('class', 'answer correct');
+            }
+        }
+    }
+    //Disables other answers if the user has selected
+    for (let i = 0; i < allAnswers; i++) {
+        answersList.children[i].classList.add('disabled');
+    }
+}
