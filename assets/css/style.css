@@ -370,6 +370,16 @@ main {
         max-width: 32rem;
     }
 
+    .answer{
+        /* Makes home-box bigger to look better on tablet */
+        width: 30rem;
+        height: 3rem;
+        border-radius: 0.625rem;
+        border: 1px solid #9289F9;
+        margin-bottom: .7rem;
+        padding: .5rem;
+    }
+
 }
 
 
