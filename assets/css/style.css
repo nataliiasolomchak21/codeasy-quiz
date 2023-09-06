@@ -153,3 +153,10 @@ main {
     align-items: center;
     padding: 2.5rem;
 }
+
+.quiz-guide h2 {
+    font-size: 1.25rem;
+    color: var(--main-color);
+    letter-spacing: 1px;
+    padding-bottom: 1rem;
+}
