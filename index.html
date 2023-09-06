@@ -29,26 +29,40 @@
     <main>
         <!-- Home page content -->
         <section class="home">
-        <div class="home-container">
-            <h1>HTML, CSS and JavaScript Quiz</h1>
-            <div class="home-box" style="background-color: rgba(241, 174, 85, 0.92);">
-                <iconify-icon icon="material-symbols:code"></iconify-icon>
-                <h2>Start Quiz</h2>
-                <button class="arrow-btn start-btn"><i class="fa-solid fa-arrow-right"></i></button>
+            <div class="home-container">
+                <h1>HTML, CSS and JavaScript Quiz</h1>
+                <div class="home-box" style="background-color: rgba(241, 174, 85, 0.92);">
+                    <iconify-icon icon="material-symbols:code"></iconify-icon>
+                    <h2>Start Quiz</h2>
+                    <button class="arrow-btn start-btn"><i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+                <div class="home-box" style="background-color: #7F9EEF;">
+                    <iconify-icon icon="flat-color-icons:rules"></iconify-icon>
+                    <h2>Quiz Guide</h2>
+                    <button class="arrow-btn"><a href="quizguide.html"><i class="fa-solid fa-arrow-right"></i></a></button>
+                </div>
+                <div class="home-box" style="background-color: #FA9D76;">
+                    <iconify-icon icon="twemoji:crown"></iconify-icon>
+                    <h2>Leaderboard</h2>
+                    <button class="arrow-btn"><a href="leaderboard.html"><i class="fa-solid fa-arrow-right"></i></a></button>
+                </div>
             </div>
-            <div class="home-box" style="background-color: #7F9EEF;">
-                <iconify-icon icon="flat-color-icons:rules"></iconify-icon>
-                <h2>Quiz Guide</h2>
-                <button class="arrow-btn"><a href="quizguide.html"><i class="fa-solid fa-arrow-right"></i></a></button>
-            </div>
-            <div class="home-box" style="background-color: #FA9D76;">
-                <iconify-icon icon="twemoji:crown"></iconify-icon>
-                <h2>Leaderboard</h2>
-                <button class="arrow-btn"><a href="leaderboard.html"><i class="fa-solid fa-arrow-right"></i></a></button>
-            </div>
-        </div>
         </section>
     </main>
+    <!-- Quiz Game -->
+    <div class="quiz-box">
+        <div class="quiz-header">
+            <span class="question-score"></span>
+            <h2 class="question-heading"></h2>
+            <ul class="answers-list">
+                <li class="answer">&#60;ol&#62;</li>
+                <li class="answer">&#60;ul&#62;</li>
+                <li class="answer">&#60;list&#62;</li>
+                <li class="answer">&#60;dl&#62;</li>
+            </ul>
+            <button class="next-btn">Next</button>
+        </div>
+    </div>
     <!-- Footer -->
     <footer>
         <!-- The code is taken from Code Insitute's Love Running Project -->
