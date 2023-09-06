@@ -126,7 +126,7 @@ main {
 .quiz-box {
     /* Enables div to appear on top of home container */
     position: absolute;
-    top: 50px;
+    top: 100px;
     left: 0;
     right: 0;
     width: 100%;
@@ -138,7 +138,6 @@ main {
     /* Makes the div hidden until the arrow button is triggered */
     opacity: 0;
     pointer-events: none;
-    margin-top: 3rem;
 }
 
 /* Makes the div visible when the "Start Quiz" button is clicked */
@@ -148,19 +147,33 @@ main {
 }
 
 /* Styles span element in quiz-box */
-.quiz-header .question-score {
+.question-score {
     font-size: 1.5rem;
     font-weight: 600;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     color: var(--main-color);
 }
 
 /* Styles h2 element in quiz-box */
 .question-heading {
-    font-size: 1.125rem;
+    font-size: 1.2rem;
     color: var(--main-color);
     font-weight: 500;
     margin-bottom: 1rem;
+}
+
+.quiz-box .answers-list {
+    list-style-type: none;
+}
+
+.answers-list .answer {
+    width: 18rem;
+    height: 2.75rem;
+    border-radius: .6rem;
+    border: 1px solid var(--main-color);
+    margin-bottom: .7rem;
+    padding: .5rem;
+    cursor: pointer;
 }
 
 /* Footer */
