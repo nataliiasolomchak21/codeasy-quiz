@@ -85,3 +85,18 @@ main {
     font-weight: 600;
     margin-bottom: 1.5rem;
 }
+
+/* Home-box */
+.home-box {
+    /* Styles the content inside the home-box div to appear next to each other */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 18rem;
+    height: 6rem;
+    padding: 2rem;
+    margin-top: 1rem;
+    color: var(--bg-color);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
