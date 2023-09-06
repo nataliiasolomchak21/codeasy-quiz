@@ -122,6 +122,25 @@ main {
     font-size: 1.2rem;
 }
 
+/* Quiz box */
+.quiz-box {
+    /* Enables div to appear on top of home container */
+    position: absolute;
+    top: 50px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    background-color: var(--bg-color);
+    /* Makes the div hidden until the arrow button is triggered */
+    opacity: 0;
+    pointer-events: none;
+    margin-top: 3rem;
+}
+
 /* Footer */
 #social-media {
     position: absolute;
@@ -177,4 +196,6 @@ main {
 .quiz-guide .exit-btn {
     margin-top: 1rem;
 }
+
+
 
