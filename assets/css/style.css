@@ -329,9 +329,18 @@ main {
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
-    /* Quiz page */
+    /* Home page */
     .home-container {
         margin-top: 6rem;
+    }
+
+    .home-container h1 {
+        font-size: 2rem;
+    }
+
+    .home-box {
+        width: 31rem;
+        height: 7rem;
     }
 }
 
