@@ -147,13 +147,15 @@ main {
     pointer-events: auto;
 }
 
-.quiz-header .question-score{
+/* Styles span element in quiz-box */
+.quiz-header .question-score {
     font-size: 1.5rem;
     font-weight: 600;
     margin-bottom: 1rem;
     color: var(--main-color);
 }
 
+/* Styles h2 element in quiz-box */
 .question-heading {
     font-size: 1.125rem;
     color: var(--main-color);
