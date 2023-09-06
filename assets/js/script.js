@@ -14,6 +14,25 @@ function startQuiz() {
 
 startQuiz();
 
+//Changes questions from 1 to 15
+let questionsCount = 0;
+let questionsNumb = 1;
+let userScore = 0;
+
+const nextBtn = document.querySelector('.next-btn')
+
+nextBtn.onclick = () => {
+    if(questionsCount < questions.length - 1) {
+        questionsCount++
+        showQuizQuestions(questionsCount)
+
+        questionsNumb++
+        questionIndicator(questionsNumb);
+    } else {
+        console.log("The end")
+    }
+}
+
 //Shows user quiz questions
 const answersList = document.querySelector('.answers-list')
 
