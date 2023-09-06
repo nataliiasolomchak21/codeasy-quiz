@@ -191,7 +191,7 @@ main {
     border: 2px solid #C4133D;
 }
 
-.answer.disabled {
+.answers-list .answer.disabled {
     pointer-events: none;
 }
 
