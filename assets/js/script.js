@@ -8,7 +8,8 @@ function startQuiz() {
     startBtn.onclick = () => {
         quizBox.classList.add('active')
 
-        showQuizQuestions(0);
+        showQuizQuestions(0)
+        questionIndicator(1)
     }
 }
 
@@ -33,12 +34,6 @@ nextBtn.onclick = () => {
     } else {
         console.log("The end")
     }
-}
-
-//Changes the question number from 1 to 15
-function questionIndicator() {
-    const questionScore = document.querySelector('.question-score');
-    questionScore.textContent = `Questions ${index} / ${questions.length}`
 }
 
 //Shows user quiz questions
@@ -107,3 +102,11 @@ function answerSelected(answer) {
     //Enables to go to the next question if user has selected
     nextBtn.classList.add('active');
 }
+
+//Changes the question number from 1 to 15
+function questionIndicator(index) {
+    const questionScore = document.querySelector('.question-score');
+    questionScore.textContent = `Questions ${index} / ${questions.length}`
+}
+
+questionIndicator()
