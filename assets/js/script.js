@@ -27,4 +27,13 @@ function showQuizQuestions(index) {
     <li class="answer">${questions[index].answers[3]}</li>`
 
     answersList.innerHTML = answerEach
+
+    /**
+     * The code for this part of the function is taken from Codehal's Quiz Website Youtube video
+     * Loops through all elements with class "answer" and attaches aclick handler to each one
+     */
+    const answer = document.querySelectorAll('.answer');
+    for(let i = 0; i < answer.length; i++) {
+        answer[i].setAttribute('onclick', 'answerSelected(this)');
+    }
 }
