@@ -32,7 +32,7 @@ nextBtn.onclick = () => {
 
         nextBtn.classList.remove('active')
     } else {
-        console.log("The end")
+        showQuizResultBox()
     }
 }
 
@@ -109,3 +109,10 @@ function questionIndicator(index) {
     questionScore.textContent = `Questions ${index} / ${questions.length}`
 }
 
+//Shows user their score
+const scoreBox = document.querySelector('.score-box');
+
+function showQuizResultBox() {
+    quizBox.classList.remove('active')
+    scoreBox.classList.add('active')
+}
