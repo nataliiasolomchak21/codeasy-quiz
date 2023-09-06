@@ -28,6 +28,8 @@ nextBtn.onclick = () => {
 
         questionsNumb++
         questionIndicator(questionsNumb);
+
+        nextBtn.classList.remove('active');
     } else {
         console.log("The end")
     }
