@@ -133,10 +133,12 @@ function tryAgainBtn() {
         scoreBox.classList.remove('active')
         quizBox.classList.add('active')
         nextBtn.classList.remove('active')
-
+        
+        //Resets the question counter, question number, and score to start values
         questionsCount = 0;
         questionsNumb = 1;
         userScore = 0;
+        //Displays the first question again and resets the question number indicator
         showQuizQuestions(questionsCount);
         questionIndicator(questionsNumb);
     }
