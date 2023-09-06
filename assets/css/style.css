@@ -191,6 +191,7 @@ main {
     border: 2px solid #C4133D;
 }
 
+/* Disables any actions if user already choose the answer */
 .answers-list .answer.disabled {
     pointer-events: none;
 }
@@ -207,6 +208,26 @@ main {
     pointer-events: auto;
     background-color: #273f7c;
     border: 2px solid #273f7c;
+}
+
+/* Total user score box */
+.score-box {
+    /* Enables div to appear on top of quiz box */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background-color: var(--bg-color);
+    /* Makes the div hidden until the last "Next" button is triggered */
+    opacity: 0;
+    pointer-events: none;
 }
 
 /* Footer */
