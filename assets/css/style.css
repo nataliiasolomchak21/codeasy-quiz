@@ -177,14 +177,14 @@ main {
     cursor: pointer;
 }
 
-/* Adds color when the user answer is correct */
+/* Adds colour when the user answer is correct */
 .answers-list .answer.correct {
     background-color: var(--bg-color);
     color: #19B457;
     border: 2px solid #19B457;
 }
 
-/* Adds color when the user answer is incorrect */
+/* Adds colour when the user answer is incorrect */
 .answers-list .answer.wrong {
     background-color: var(--bg-color);
     color: #C4133D;
@@ -196,6 +196,13 @@ main {
     margin-right: auto;
     margin-top: .5rem;
     pointer-events: none;
+}
+
+/* Enables button to be clicked on and changes the colour */
+.quiz-box .next-btn.active {
+    pointer-events: auto;
+    background-color: #273f7c;
+    border: 2px solid #273f7c;
 }
 
 /* Footer */
