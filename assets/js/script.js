@@ -27,12 +27,18 @@ nextBtn.onclick = () => {
         showQuizQuestions(questionsCount)
 
         questionsNumb++
-        questionIndicator(questionsNumb);
+        questionIndicator(questionsNumb)
 
-        nextBtn.classList.remove('active');
+        nextBtn.classList.remove('active')
     } else {
         console.log("The end")
     }
+}
+
+//Changes the question number from 1 to 15
+function questionIndicator() {
+    const questionScore = document.querySelector('.question-score');
+    questionScore.textContent = `Questions ${index} / ${questions.length}`
 }
 
 //Shows user quiz questions
