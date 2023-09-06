@@ -267,6 +267,10 @@ main {
     padding: .5rem;
 }
 
+.score-box button {
+    margin-bottom: 1rem;
+}
+
 /* Footer */
 #social-media {
     position: absolute;
