@@ -154,6 +154,13 @@ main {
     color: var(--main-color);
 }
 
+.quiz-heading {
+    font-size: 1.125rem;
+    color: var(--main-color);
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
 /* Footer */
 #social-media {
     position: absolute;
