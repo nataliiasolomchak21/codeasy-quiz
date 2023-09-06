@@ -79,25 +79,25 @@ function showQuizQuestions(index) {
  * Checks if user answer matches correct answer
  */
 function answerSelected(answer) {
-    let userAnswer = answer.textContent;
-    let correctAnswer = questions[questionsCount].correctAnswer;
-    let allAnswers = answersList.children.length;
+    let userAnswer = answer.textContent
+    let correctAnswer = questions[questionsCount].correctAnswer
+    let allAnswers = answersList.children.length
     if (userAnswer === correctAnswer) {
-        answer.classList.add('correct');
+        answer.classList.add('correct')
         userScore += 1;
     } else {
-        answer.classList.add('wrong');
+        answer.classList.add('wrong')
 
         //Auto selects the correct answer if the user has selected incorrect one
         for (let i = 0; i < allAnswers; i++) {
             if (answersList.children[i].textContent === correctAnswer) {
-                answersList.children[i].setAttribute('class', 'answer correct');
+                answersList.children[i].setAttribute('class', 'answer correct')
             }
         }
     }
     //Disables other answers if the user has selected
     for (let i = 0; i < allAnswers; i++) {
-        answersList.children[i].classList.add('disabled');
+        answersList.children[i].classList.add('disabled')
     }
     //Enables to go to the next question if user has selected
     nextBtn.classList.add('active');
@@ -105,14 +105,22 @@ function answerSelected(answer) {
 
 //Changes the question number from 1 to 15
 function questionIndicator(index) {
-    const questionScore = document.querySelector('.question-score');
+    const questionScore = document.querySelector('.question-score')
     questionScore.textContent = `Questions ${index} / ${questions.length}`
 }
 
-//Shows user their score
-const scoreBox = document.querySelector('.score-box');
+//Shows total user score
+function showQuizResult() {
+    const scoreText = document.querySelector('.score-text')
+    scoreText.textContent = `${userScore} / ${questions.length}`
+}
+
+//Shows score-box
+const scoreBox = document.querySelector('.score-box')
 
 function showQuizResultBox() {
     quizBox.classList.remove('active')
     scoreBox.classList.add('active')
+
+    showQuizResult()
 }
