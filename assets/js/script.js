@@ -109,4 +109,3 @@ function questionIndicator(index) {
     questionScore.textContent = `Questions ${index} / ${questions.length}`
 }
 
-questionIndicator()
