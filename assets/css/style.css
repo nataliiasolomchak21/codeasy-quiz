@@ -142,6 +142,7 @@ main {
 
 /* Quiz guide page */
 .quiz-guide {
+    /* Styles the elements within section to be centered*/
     position: absolute;
     top: 0;
     width: 100%;
@@ -160,3 +161,20 @@ main {
     letter-spacing: 1px;
     padding-bottom: 1rem;
 }
+
+.quiz-guide ul {
+    list-style-type: none;
+    margin-bottom: 1rem;
+}
+
+.quiz-guide li {
+    font-size: .9rem;
+    color: var(--text-color);
+    text-align: justify;
+    margin-bottom: .5rem;
+}
+
+.quiz-guide .exit-btn {
+    margin-top: 1rem;
+}
+
