@@ -84,7 +84,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: left;
     padding: 2rem;    
 }
 
@@ -126,6 +126,7 @@ main {
     height: 100vh;
     display: flex;
     flex-direction: column;
+    align-items: center;
     padding: 2rem;
     background-color: var(--bg-color);
     /* Makes the div hidden until the arrow button is triggered */
@@ -161,7 +162,7 @@ main {
 
 /* Styles li elements in quiz-box */
 .answers-list .answer {
-    width: 18rem;
+    width: 18.5rem;
     height: 2.75rem;
     border-radius: .6rem;
     border: 1px solid var(--main-color);
