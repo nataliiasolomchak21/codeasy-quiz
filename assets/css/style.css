@@ -63,6 +63,11 @@ header {
     font-weight: 600;
 }
 
+#quiz-guide-icon iconify-icon {
+    color: var(--main-color);
+    font-size: 2rem;
+}
+
 /* Main content */
 main {
     /* Pushes down the footer */
