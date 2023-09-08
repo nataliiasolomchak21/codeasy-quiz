@@ -30,9 +30,9 @@ let questions = [
 
     {
         numb: 5,
-        question: "Which HTML element is used to group related legend and fieldset elements?",
-        answers: ["&#60i&#62;label&#60/i&#62;", "&#60i&#62;details&#60/i&#62;", "&#60i&#62;optgroup&#60/i&#62;", "&#60i&#62;form&#60/i&#62;"],
-        correctAnswer: "<i>form</i>"
+        question: "What is an element that does not have a closing tag called?",
+        answers: ["tag", "empty element", "closed element", "closing element"],
+        correctAnswer: "empty element"
     },
 
     {
@@ -87,15 +87,15 @@ let questions = [
     {
         numb: 13,
         question: "What is the correct way to declare a variable in JavaScript?",
-        answers: ["var x = 5;", "variable x = 5;", "x = 5;", "let x = 5;"],
+        answers: ["varx = 5;", "variable x = 5;", "x = 5;", "let x = 5;"],
         correctAnswer: "let x = 5;"
     },
 
     {
         numb: 14,
         question: "What is the correct syntax for a “for” loop in JavaScript?",
-        answers: ["for (var i = 0; i < 5; i++)", "for (i = 0; i < 5; i++)", "for (var i = 5; i > 0; i–)", "for (i = 5; i > 0; i–)"],
-        correctAnswer: "for (var i = 0; i < 5; i++)"
+        answers: ["for (let i = 0; i < 5; i++)", "for (i = 0; i < 5; i++)", "for (let i = 5; i > 0; i–)", "for (i = 5; i > 0; i–)"],
+        correctAnswer: "for (let i = 0; i < 5; i++)"
     },
 
     {
