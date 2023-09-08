@@ -416,21 +416,39 @@ main {
         min-width: 35rem;
     }
 
-    .home-content h2 {
+    .home-content h1 {
         font-size: 1.2rem;
     }
 
     .home-container img {
         width: 45%;
     }
-
-
-    
 }
 
 @media screen and (min-width: 1600px) {
-    .home-container {
-        padding-top: 3rem;
+    .home-content h1 {
+        font-size: 3.5rem;
+        min-width: 40rem;
+    }
+
+    .home-content p {
+        font-size: 1.3rem;
+        min-width: 30rem;
+    }
+
+    .question-score {
+        font-size: 2rem;
+    }
+
+    .question-heading {
+        font-size: 1.5rem;
+        text-align: center;
+        min-width: 50rem;
+    }
+
+    .answers-list .answer {
+        width: 40rem;
+        height: 3rem;
     }
 }
 
