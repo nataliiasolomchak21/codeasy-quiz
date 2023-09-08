@@ -352,7 +352,6 @@ main {
 
     /* Quiz box */
     .quiz-box {
-        margin-top: 3rem;
         justify-content: flex-start;
         align-items: center;
     }
@@ -409,7 +408,7 @@ main {
         display: flex;
         flex-direction: row;
         justify-content: center;
-        align-items: center;
+        align-items: flex-start;
     }
 
     .home-content {
