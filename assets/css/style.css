@@ -329,20 +329,7 @@ main {
     .home-container h1 {
         font-size: 2rem;
     }
-    /* Makes home-box bigger to look better on tablet */
-    .home-box {
-        width: 31rem;
-        height: 7rem;
-    }
 
-    .username-label {
-        font-size: 1.3rem;
-    }
-    
-    .text-input {
-        width: 26rem;
-        height: 2.5rem;
-    }
     /* Quiz box */
     .quiz-box {
         margin-top: -4rem;
