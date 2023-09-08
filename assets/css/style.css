@@ -324,6 +324,7 @@ main {
     /* Home page */
     .home-container {
         margin-top: 3rem;
+        margin-left: 1rem;
     }
 
     .home-content h1 {
@@ -340,25 +341,24 @@ main {
 
     .start-btn {
         width: 13rem;
-        height: 3.6rem;
+        height: 3rem;
         font-size: 1rem;
     }
 
     .home-container img {
-        width: 85%;
+        width: 80%;
         margin-left: 5rem;   
     }
 
     /* Quiz box */
     .quiz-box {
-        margin-top: -4rem;
-        justify-content: center;
+        margin-top: 3rem;
+        justify-content: flex-start;
         align-items: center;
     }
 
     .quiz-header {
         font-size: 2rem;
-        margin-bottom: 1rem;
     }
     
     .question-heading {
@@ -368,8 +368,8 @@ main {
         max-width: 32rem;
     }
 
-    .answer{
-        /* Makes home-box bigger to look better on tablet */
+    .answers-list .answer{
+        /* Makes li elements bigger to look better on tablet */
         width: 30rem;
         height: 3rem;
         border-radius: 0.625rem;
@@ -378,7 +378,10 @@ main {
         padding: .5rem;
     }
 
-    .next-btn {
+    .next-btn,
+    .try-again-btn,
+    .go-home-btn,
+    .exit-btn {
         width: 13rem;
         height: 3rem;
         font-size: 1rem;
