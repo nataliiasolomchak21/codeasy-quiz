@@ -47,6 +47,9 @@ button a {
 header {
     position: fixed;
     top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
     padding: .5rem 1rem;
     width: 100%;
     box-shadow: 0 2px 2px var(--shadow-color);
