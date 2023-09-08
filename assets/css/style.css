@@ -406,11 +406,22 @@ main {
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
     .home-container {
-        top: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .home-content {
+        min-width: 35rem;
     }
 
     .home-content h2 {
         font-size: 1.2rem;
+    }
+
+    .home-container img {
+        width: 45%;
     }
 
 
