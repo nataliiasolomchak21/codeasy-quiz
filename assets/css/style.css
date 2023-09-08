@@ -424,6 +424,10 @@ main {
         min-width: 30rem;
     }
 
+    .quiz-box {
+       margin-top: 6rem;
+    }
+
     .question-score {
         font-size: 2rem;
     }
