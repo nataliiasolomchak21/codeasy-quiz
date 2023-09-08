@@ -268,7 +268,7 @@ main {
     position: absolute;
     bottom: 0px;
     width: 100%;
-    padding: .5rem;
+    padding: .5rem 1rem;
     background-color: var(--main-color);
     display: flex;
     justify-content: space-evenly;
@@ -326,8 +326,27 @@ main {
         margin-top: 3rem;
     }
 
-    .home-container h1 {
-        font-size: 2rem;
+    .home-content h1 {
+        font-size: 2.5rem;
+        max-width: 25rem;
+        margin-bottom: 1rem;
+    }
+
+    .home-content p {
+        font-size: 1.25rem;
+        max-width: 29rem;
+        margin-bottom: 2rem;
+    }
+
+    .start-btn {
+        width: 13rem;
+        height: 3.6rem;
+        font-size: 1rem;
+    }
+
+    .home-container img {
+        width: 85%;
+        margin-left: 5rem;   
     }
 
     /* Quiz box */
@@ -387,9 +406,12 @@ main {
         top: 50px;
     }
 
-    .home-box h2 {
+    .home-content h2 {
         font-size: 1.2rem;
     }
+
+
+    
 }
 
 @media screen and (min-width: 1600px) {
