@@ -146,11 +146,5 @@ function tryAgainBtn() {
 
 tryAgainBtn()
 
-//Enables user to go to the main section of the page
-const goHomeBth = document.querySelector('.go-home-btn')
 
-goHomeBth.onclick = () => {
-    scoreBox.classList.remove('active')
-    quizBox.classList.remove('active')
-}
 
