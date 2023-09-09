@@ -54,24 +54,24 @@ The header looks the same on all the devices. It includes a logo and a link to Q
 <details><summary><b>Home page</b></summary>
 
 ![Home section wireframe using Balsamique](README-images/wireframe-home-section.png)
-</details><br>
+</details>
 
 Home section includes h2 element, a small paragraph, button and an image. The home section is responsive and looks similar on all the devices with minor adjustments added such as positioning in a row for desktops and increased font size.
 <details><summary><b>Quiz Guide page</b></summary>
 
 ![Quiz Guide page wireframe using Balsamique](README-images/wireframe-quiz-guide-page.png)
-</details><br>
+</details>
 
 Quiz Guide includes an h2 element, an unordered list and a link that brings user back to Home page. 
 <details><summary><b>Quiz Game</b></summary>
 
 ![Quiz wireframe using Balsamique](README-images/wireframe-quiz-game.png)
-</details><br>
+</details>
 Quiz includes a heading, question counter, 4 options for user to choose from and a "Next" button. The quiz is responsive across all devices with minor adjustments like positioning and increased font size. 
 <details><summary><b>Score</b></summary>
 
 ![Score wireframe using Balsamique](README-images/wireframe-score.png)
-</details><br>
+</details>
 Score includes an h2 element, a span element, button to restart the quiz and a link to the Home page. The score part of the website is responsive across all the devices with minor adjustments like font size.
 
 #### Footer
