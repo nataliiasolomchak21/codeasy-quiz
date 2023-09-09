@@ -275,7 +275,7 @@ There is an issue with html pages on this device a little bit of space appearing
 ![Oppo A12](README-images/oppo-a-twelve.jpg)
 </details><br/>
 
-There is no issues with the screen on this device, however the quiz elements are too big for this screen whixh means they are not responsive enough
+There is no issues with the screen on this device, however the quiz elements are too big for this screen which means they are not responsive enough
 
 * Samsung Galaxy S8+
 * iPad
@@ -289,6 +289,23 @@ The website functions in the following browsers:
 * Microsoft Edge
 * Firefox
 
+### Unfixed Bugs
+
+* There is an issue with html pages on this device a little bit of space appearing when you go to Quiz Guide page. To get rid of that, you need to pull the screen down
+<details><summary><b>Unfixed bug with reduntant space</b></summary>
+
+![Unfixed bug with reduntant space](README-images/samsung-galaxy-a-thirty-four.jpg)
+</details><br/>
+
+* On a laptop, the image in Home section is being positioned too low although the positioning for the div it is in is centered.
+<details><summary><b>Unfixed bug with reduntant space</b></summary>
+
+![Unfixed bug with image](README-images/laptop-bug.png)
+</details><br/>
+
+### Fixed Bugs
+
+* I had an error appearing in a console when you go to Quiz Guide page. The error said to be with a "Start Quiz" button. I figured out that the reason it's showing an error is that there is no Javascript on this page yet there is a script element in a body of the page. So I removed the JavaScript files from quizguide.html page as there was no point of having them there.
 
 ## Technologies Used
 
