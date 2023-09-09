@@ -23,6 +23,19 @@ Codeasy Quiz is a 2-page educational website that allows users to assess their c
 * Build an intuative UI/UX - A clean, easy-to-use interface maximizing usability and user experience.
 * Make it accessible and responsive - Ensure the website and quiz are accessible to users with disabilities and work across devices.
 
+### User Stories
+
+#### First Time Visitor Goals
+
+* I want to navigate through the website easily using navigation option in header.
+* I want to get a clear feedback to any of my actions.
+* I want to navigate through the quiz itself easily using buttons.
+* I want to see my score after completing the quiz.
+* I want to be familiar with the quiz rules.
+
+#### Frequent Visitor Goals
+
+* I want to be able to use the website across all the devices.
 
 ## Design Stage
 
