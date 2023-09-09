@@ -39,6 +39,62 @@ Codeasy Quiz is a 2-page educational website that allows users to assess their c
 
 ## Design Stage
 
+### Wireframes
+
+#### Header
+
+<details><summary><b>Mobile</b></summary>
+
+![Header for mobile wireframe using Balsamique](README-images/wireframe-header-mobile.png)
+</details><br/>
+
+<details><summary><b>Desktop</b></summary>
+
+![Header for desktop wireframe using Balsamique](README-images/wireframe-header-desktop.png)
+</details><br/>
+
+The header looks the same on all the devices. It includes a logo and a link to Quiz Guide page. 
+
+<details><summary><b>Home page</b></summary>
+
+![Home section wireframe using Balsamique](README-images/wireframe-home-section.png)
+</details><br/>
+
+Home section includes h2 element, a small paragraph, button and an image. The home section is responsive and looks similar on all the devices with minor adjustments added such as positioning in a row for desktops and increased font size.
+
+<details><summary><b>Quiz Guide page</b></summary>
+
+![Quiz Guide page wireframe using Balsamique](README-images/wireframe-quiz-guide-page.png)
+</details><br/>
+
+Quiz Guide includes an h2 element, an unordered list and a link that brings user back to Home page. 
+
+<details><summary><b>Quiz Game</b></summary>
+
+![Quiz wireframe using Balsamique](README-images/wireframe-quiz-game.png)
+</details><br/>
+
+Quiz includes a heading, question counter, 4 options for user to choose from and a "Next" button. The quiz is responsive across all devices with minor adjustments like positioning and increased font size.
+
+<details><summary><b>Score</b></summary>
+
+![Score wireframe using Balsamique](README-images/wireframe-score.png)
+</details><br/>
+
+Score includes an h2 element, a span element, button to restart the quiz and a link to the Home page. The score part of the website is responsive across all the devices with minor adjustments like font size.
+#### Footer
+
+<details><summary><b>Mobile</b></summary>
+
+![Footer for mobile wireframe using Balsamique](README-images/wireframe-footer-mobile.png)
+</details><br/>
+<details><summary><b>Destop</b></summary>
+
+![Footer for destop wireframe using Balsamique](README-images/wireframe-footer-desktop.png)
+</details><br/>
+
+The footer includes links to Instagram, Facebook and Twitter each opening in a new tab for accessibility.
+
 ## Features
 
 ## Testing
