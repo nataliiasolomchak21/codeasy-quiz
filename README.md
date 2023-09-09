@@ -88,12 +88,21 @@ Score includes an h2 element, a span element, button to restart the quiz and a l
 
 ![Footer for mobile wireframe using Balsamique](README-images/wireframe-footer-mobile.png)
 </details><br/>
+
 <details><summary><b>Destop</b></summary>
 
 ![Footer for destop wireframe using Balsamique](README-images/wireframe-footer-desktop.png)
 </details><br/>
 
 The footer includes links to Instagram, Facebook and Twitter each opening in a new tab for accessibility.
+
+### Colour Palette
+
+![Colour Palette](README-images/colour-palette.png)
+
+For this project, I chose the bright colors to be presented in my colour palette as they have a positive affect on the user experince. I also used black and white colours as well as rgba(0, 0, 0, .2) for drop shadow on header.
+
+
 
 ## Features
 
