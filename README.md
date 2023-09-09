@@ -364,4 +364,23 @@ The project was deployed to Github Pages using the following steps:
 
 ## Credits
 
+### Content
+
+* The text content for the Home section and Quiz Guide page was created by me.
+* The HTML questions were created by me.
+* CSS questions were taken from [here](https://www.dailyrecruitment.in/css-multiple-choice-questions-and-answer-quiz/).
+* JavaScript questions were taken from [here](https://basescripts.com/110-javascript-quiz-questions-with-solutions-pdf-download-test-your-knowledge).
+### Media
+
+* The hero image was taken from [here](https://br.pinterest.com/pin/606649012296185462/).
+* The favicon image was taken from [here](https://pixabay.com/vectors/symbol-gui-internet-internet-page-2485367/).
+
+### Code
+
+* The code for social media icons was also taken from [Love Running Project](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LRFX101+2023_Q2/courseware/e805068059af42af87681032aa64053f/7525117e5cd144daa2a7b0c57843bbee/?child=first) by [Code Institute](https://codeinstitute.net/ie/full-stack-software-development-diploma/?utm_term=code%20institute&utm_campaign=CI+-+IRL+-+Search+-+Brand&utm_source=adwords&utm_medium=ppc&hsa_acc=8983321581&hsa_cam=14304747355&hsa_grp=128775288209&hsa_ad=635725005315&hsa_src=g&hsa_tgt=kwd-319867646331&hsa_kw=code%20institute&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gad=1&gclid=EAIaIQobChMI-6Pgu9jmgAMVzjcGAB3SFA1FEAAYASAAEgKGQvD_BwE) and was used only in html file. The comment about it is in html file.
+* All the JavaScript code was made by me besides the one mentioned in comments in script.js file. Also the functionality of showQuizQuestions function was inspired by [Codehal's "How To Make Quiz Website Using HTML CSS And Javascript" Youtube video](https://www.youtube.com/watch?v=Vp8x8-reqZA&t=3713s). The overall quiz may seem similar to what is in the video as I was struggling with it a lot but while using some of the functuonality from this video I still created my own code as well because I didn't want to blatantly copy and paste someone else's work.
+* All the HTML and CSS was written by me.
+
 ## Acknowledgements
+
+I would like to thank my mentor Dick Vlaanderen for his valuable advices throughout the whole project and our facilitator Marko Tot for sharing his experience and teaching me tips and tricks on how to make my project better.
