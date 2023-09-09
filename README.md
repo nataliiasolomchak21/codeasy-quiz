@@ -53,30 +53,30 @@ Codeasy Quiz is a 2-page educational website that allows users to assess their c
 
 The header looks the same on all the devices. It includes a logo and a link to Quiz Guide page.
 
-<details><summary><b>Home page</b></summary>
+<br><details><summary><b>Home page</b></summary>
 
 ![Home section wireframe using Balsamique](README-images/wireframe-home-section.png)
 </details><br>
 
 Home section includes h2 element, a small paragraph, button and an image. The home section is responsive and looks similar on all the devices with minor adjustments added such as positioning in a row for desktops and increased font size.
 
-<details><summary><b>Quiz Guide page</b></summary>
+<br><details><summary><b>Quiz Guide page</b></summary>
 
 ![Quiz Guide page wireframe using Balsamique](README-images/wireframe-quiz-guide-page.png)
-</details><br/>
+</details><br>
 
 Quiz Guide includes an h2 element, an unordered list and a link that brings user back to Home page. 
 
-<details><summary><b>Quiz Game</b></summary>
+<br><details><summary><b>Quiz Game</b></summary>
 
 ![Quiz wireframe using Balsamique](README-images/wireframe-quiz-game.png)
-</details><br/>
+</details><br>
 Quiz includes a heading, question counter, 4 options for user to choose from and a "Next" button. The quiz is responsive across all devices with minor adjustments like positioning and increased font size.
 
-<details><summary><b>Score</b></summary>
+<br><details><summary><b>Score</b></summary>
 
 ![Score wireframe using Balsamique](README-images/wireframe-score.png)
-</details><br/>
+</details><br>
 Score includes an h2 element, a span element, button to restart the quiz and a link to the Home page. The score part of the website is responsive across all the devices with minor adjustments like font size.
 
 #### Footer
@@ -105,14 +105,14 @@ For this project, I chose the bright colors to be presented in my colour palette
 <details><summary><b>(360x740)</b></summary>
 
 ![Figma design for mobile](README-images/figma-design-mobile.png)
-</details><br/>
+</details>
 
 #### Tablet
 
 <details><summary><b>(768x1024)</b></summary>
 
 ![Figma design for tablet](README-images/figma-design-tablet.png)
-</details><br/>
+</details>
 
 #### Desktop
 
@@ -123,9 +123,32 @@ For this project, I chose the bright colors to be presented in my colour palette
 
 For the font, I used Poppins font family as it fit best into the design and was readable for the user.
 
-
-
 ## Features
+
+### Existing Features
+
+<details><summary><b>Header</b></summary>
+
+![Header](README-images/figma-design-desktop.png)
+</details><br/>
+
+  * Featured at the top of the website, the fully responsive header includes links to the codeasy logo and Quiz Guide page.
+  * This feature will allow user to easily navigate between two pages without the need to scroll up or down to get to a certain section.
+<details><summary><b>Header</b></summary>
+
+![Header](README-images/figma-design-desktop.png)
+</details><br/>
+
+  * Featured at the top of the website, the fully responsive header includes links to the codeasy logo and Quiz Guide page.
+  * This feature will allow user to easily navigate between two pages without the need to scroll up or down to get to a certain section.
+
+
+
+  
+  
+
+
+  
 
 ## Testing
 
