@@ -171,15 +171,50 @@ For the font, I used Poppins font family as it fit best into the design and was 
   * Quiz Guide page includes a header, footer, h2 element, an unordered list and a button.
   * This feature will allow user familiarize themselves with the quiz rules as well as enable them to leave the page by clicking on "Exit" button.
 
+### Features Left to Implement
 
-
-  
-  
-
-
-  
+* Timer - A timer that counts down during the quiz engages users and tests their knowledge under time time constrains creating more compelling and realistic quiz experience. 
+* Saving username and score - Allowing users to save their score and usernames personalizes the experience and enables tracking progress across sessions. Saved scores and usernames would be intergrated into a leaderboard.
+* 404 page that will give clear notification for the user if any links are broken.
 
 ## Testing
+
+### Validator Testing
+
+#### HTML
+
+index.html
+
+![W3C HTML Validator](README-images/index-html-page-w3c-validator.png)
+
+* No errors were returned when passing through the official [W3C validation](https://validator.w3.org/)
+
+quizguide.html
+
+![W3C HTML Validator](README-images/quiz-guide-html-page-w3c-validator.png)
+
+* No errors were returned when passing through the official [W3C validation](https://validator.w3.org/)
+
+#### CSS
+
+![W3C CSS Validator](README-images/w3c-css-validator.png)
+
+* No errors were returned when passing through the official [Jigsaw](https://jigsaw.w3.org/css-validator/)
+
+#### JavaScript
+
+questions.js
+
+![JSHint JavaScript Validator](README-images/jshint-validator-questions-js.png)
+
+* No errors were returned when passing through the official [JSHint JavaScript Validator](https://jshint.com/)
+
+script.js
+
+![JSHint JavaScript Validator](README-images/jshint-validator-script-js.png)
+
+* No errors were returned when passing through the official [JSHint JavaScript Validator](https://jshint.com/). The questions variable was undefined as it was declared in another js file.
+
 
 ## Technologies Used
 
