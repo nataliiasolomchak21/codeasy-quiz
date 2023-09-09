@@ -50,29 +50,29 @@ Codeasy Quiz is a 2-page educational website that allows users to assess their c
 
 ![Header for desktop wireframe using Balsamique](README-images/wireframe-header-desktop.png)</details>
 
-The header looks the same on all the devices. It includes a logo and a link to Quiz Guide page.
+The header appears the same across all the devices. It includes a logo and a link to the Quiz Guide page.
 <details><summary><b>Home page</b></summary>
 
 ![Home section wireframe using Balsamique](README-images/wireframe-home-section.png)
 </details>
 
-Home section includes h2 element, a small paragraph, button and an image. The home section is responsive and looks similar on all the devices with minor adjustments added such as positioning in a row for desktops and increased font size.
+The Home section includes an h2 element, a small paragraph, button and an image. The home section is responsive and looks similar across all the devices with minor tweaks added such as positioning side-by-side on desktops and increased font size.
 <details><summary><b>Quiz Guide page</b></summary>
 
 ![Quiz Guide page wireframe using Balsamique](README-images/wireframe-quiz-guide-page.png)
 </details>
 
-Quiz Guide includes an h2 element, an unordered list and a link that brings user back to Home page. 
+The Quiz Guide includes an h2 element, an unordered list and a link that brings the user back to the Home page. 
 <details><summary><b>Quiz Game</b></summary>
 
 ![Quiz wireframe using Balsamique](README-images/wireframe-quiz-game.png)
 </details>
-Quiz includes a heading, question counter, 4 options for user to choose from and a "Next" button. The quiz is responsive across all devices with minor adjustments like positioning and increased font size. 
+The Quiz includes a heading, question counter, 4 options for the user to choose from and a "Next" button. The quiz is responsive across all devices with minor adjustments like positioning and increased font size. 
 <details><summary><b>Score</b></summary>
 
 ![Score wireframe using Balsamique](README-images/wireframe-score.png)
 </details>
-Score includes an h2 element, a span element, button to restart the quiz and a link to the Home page. The score part of the website is responsive across all the devices with minor adjustments like font size.
+The Score section includes an h2 element, a span element, button to restart the quiz and a link to the Home page. The score part of the website is responsive across all the devices with minor adjustments like font size.
 
 #### Footer
 
@@ -116,7 +116,7 @@ For this project, I chose the bright colors to be presented in my colour palette
 ![Figma design for mobile](README-images/figma-design-desktop.png)
 </details><br/>
 
-For the font, I used Poppins font family as it fit best into the design and was readable for the user.
+For the font, I used Poppins font family as it best fits the design and was readable for the user.
 
 ## Features
 
@@ -134,21 +134,21 @@ For the font, I used Poppins font family as it fit best into the design and was 
 ![Home section](README-images/home-page-home-section-feature.png)
 </details>
 
-  * Home section includes two text elemnts, an image for stylistic purpose and a button that initiates the quiz.
-  * This feature will allow user get some information about the website and they can achieve using it as well as initiate the quiz with "Start Quiz" button.
+  * The Home section includes two text elements, an image for stylistic purposes and a button that initiates the quiz.
+  * This feature will allow user to get some information about the website and they can achieve using it as well as start the quiz with "Start Quiz" button.
 <details><summary><b>Quiz</b></summary>
 
 ![Quiz](README-images/home-page-quiz-feature.png)
 </details>
 
-  * Quiz includes 2 text elements, an unordered list and a "Next" button that enables user that go to the next quiz question.
-  * This feature will allow user to go through 15 questions on HTML, CSS and JavaScript fundamentals as well as having four different options to choose from. The "Next" is also disabled, preventing user from going to the next question if the existing one is not being selected.
+  * The Quiz includes 2 text elements, an unordered list and a "Next" button that enables user that go to the next quiz question.
+  * This feature will allow user to go through 15 questions on HTML, CSS and JavaScript fundamentals as well as having four different options to choose from. The "Next" button is also disabled, preventing user from moving on until an answer is selected.
 <details><summary><b>Selected answers</b></summary>
 
 ![Selected answers](README-images/quiz-answer-selected-feature.png)
 </details>
 
-  * This feature allows user to see the correct answer if the answer they selected is incorrect as well as enable the "Next" button to work highlighting it in a darker colour.
+  * This feature shows user the correct answer if the selection is incorrect and enables the "Next" button to work highlighting it in a darker colour.
 
 <details><summary><b>Score</b></summary>
 
@@ -156,20 +156,20 @@ For the font, I used Poppins font family as it fit best into the design and was 
 </details>
 
   * This feature includes a text element, span element and two buttons. 
-  * It will allow user see their score as well as enable them to restart the quiz by clicking on "Try Again button" or go to Home section by ckicking on "Go Home" button.
+  * It will allow user see their score and restart the quiz by clicking on "Try Again button" or go to Home section by ckicking on "Go Home" button.
 <details><summary><b>Footer</b></summary>
 
 ![Footer](README-images/footer-feature.png)
 </details>
 
-  * Featured at the bottom of the website, the fully responsive footer enables the user to visit social media pages, each being open in a separate page
+  * Featured at the bottom of the website, the fully responsive footer enables the user to visit social media pages, each being open in a separate page.
 <details><summary><b>Quiz Guide</b></summary>
 
 ![Quiz Guide](README-images/quiz-guide-feature.png)
 </details>
 
-  * Quiz Guide page includes a header, footer, h2 element, an unordered list and a button.
-  * This feature will allow user familiarize themselves with the quiz rules as well as enable them to leave the page by clicking on "Exit" button.
+  * The Quiz Guide page includes a header, footer, h2 element, an unordered list and a button.
+  * This feature will allow user familiarize themselves with the quiz rules or leave the page by clicking on "Exit" button.
 
 ### Features Left to Implement
 
@@ -257,7 +257,7 @@ Manual testing was conducted on mobile, tablet, laptop and desktop.
 
 ![Manual testing](README-images/manual-testing.png)
 
-* The only issue is that on tablet the "Start Quiz" button is being difficult to click on. The reason for this is unknown.
+* The only issue is that the "Start Quiz" button is difficult to click on tablet. The reason for this is unknown.
 
 #### Screen sizes
 
@@ -268,14 +268,14 @@ The website works well and is responsive on the following mobiles and tablets (t
 ![Samsung Galaxy A34](README-images/samsung-galaxy-a-thirty-four.jpg)
 </details>
 
-There is an issue with html pages on this device a little bit of space appearing when you go to Quiz Guide page. To get rid of that, you need to pull the screen down
+There is an issue with html pages on this device a bit of extra space appearing when you go to Quiz Guide page. To get rid of that, you need to pull the screen down.
 
 <details><summary><b>Oppo A12</b></summary>
 
 ![Oppo A12](README-images/oppo-a-twelve.jpg)
 </details>
 
-There is no issues with the screen on this device, however the quiz elements are too big for this screen which means they are not responsive enough
+There are no issues with the screen on this device, however the quiz elements are too big for this screen which means they are not responsive enough.
 
 * Samsung Galaxy S8+
 * iPad
@@ -303,11 +303,11 @@ The website functions in the following browsers:
 ![Unfixed bug with image](README-images/laptop-bug.png)
 </details>
 
-* On a laptop, the image in Home section is being positioned too low although the positioning for the div it is in is centered.
+* On a laptop, the image in Home section is positioned too low even though the positioning for the div it is in is centered.
 
 ### Fixed Bugs
 
-* I had an error appearing in a console when you go to Quiz Guide page. The error said to be with a "Start Quiz" button. I figured out that the reason it's showing an error is that there is no Javascript on this page yet there is a script element in a body of the page. So I removed the JavaScript files from quizguide.html page as there was no point of having them there.
+* I had an error appearing in the console when going to the Quiz Guide page. The error was related to the "Start Quiz" button. I figured out the reason it's showing an error is that there is no Javascript on this page, yet there is a script element in a body of the page. So I removed the JavaScript files from quizguide.html page as there was no need to have them there.
 
 ## Technologies Used
 
@@ -380,7 +380,7 @@ The project was deployed to Github Pages using the following steps:
 ### Code
 
 * The code for social media icons was also taken from [Love Running Project](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LRFX101+2023_Q2/courseware/e805068059af42af87681032aa64053f/7525117e5cd144daa2a7b0c57843bbee/?child=first) by [Code Institute](https://codeinstitute.net/ie/full-stack-software-development-diploma/?utm_term=code%20institute&utm_campaign=CI+-+IRL+-+Search+-+Brand&utm_source=adwords&utm_medium=ppc&hsa_acc=8983321581&hsa_cam=14304747355&hsa_grp=128775288209&hsa_ad=635725005315&hsa_src=g&hsa_tgt=kwd-319867646331&hsa_kw=code%20institute&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gad=1&gclid=EAIaIQobChMI-6Pgu9jmgAMVzjcGAB3SFA1FEAAYASAAEgKGQvD_BwE) and was used only in html file. The comment about it is in html file.
-* All the JavaScript code was made by me besides the one mentioned in comments in script.js file. Also the functionality of showQuizQuestions function was inspired by [Codehal's "How To Make Quiz Website Using HTML CSS And Javascript" Youtube video](https://www.youtube.com/watch?v=Vp8x8-reqZA&t=3713s). The overall quiz may seem similar to what is in the video as I was struggling with it a lot but while using some of the functuonality from this video I still created my own code as well because I didn't want to blatantly copy and paste someone else's work.
+* All the JavaScript code was made by me besides the one mentioned in comments in script.js file. Also, the functionality of showQuizQuestions function was inspired by [Codehal's "How To Make Quiz Website Using HTML CSS And Javascript" Youtube video](https://www.youtube.com/watch?v=Vp8x8-reqZA&t=3713s). The overall quiz may seem similar to what's in the video as I struggled a lot with it, but while using some functuonality from this video I still created my own code as well because I didn't want to blatantly copy and paste someone else's work.
 * All the HTML and CSS was written by me.
 
 ## Acknowledgements
