@@ -266,14 +266,14 @@ The website works well and is responsive on the following mobiles and tablets (t
 <details><summary><b>Samsung Galaxy A34</b></summary>
 
 ![Samsung Galaxy A34](README-images/samsung-galaxy-a-thirty-four.jpg)
-</details><br/>
+</details>
 
 There is an issue with html pages on this device a little bit of space appearing when you go to Quiz Guide page. To get rid of that, you need to pull the screen down
 
 <details><summary><b>Oppo A12</b></summary>
 
 ![Oppo A12](README-images/oppo-a-twelve.jpg)
-</details><br/>
+</details>
 
 There is no issues with the screen on this device, however the quiz elements are too big for this screen which means they are not responsive enough
 
