@@ -323,12 +323,14 @@ main {
 
     .home-content h2 {
         font-size: 2.5rem;
+        /* Sets the maximum width the h2 element can take up */
         max-width: 25rem;
         margin-bottom: 1rem;
     }
 
     .home-content p {
         font-size: 1.25rem;
+        /* Sets the maximum width the p element can take up */
         max-width: 29rem;
         margin-bottom: 2rem;
     }
@@ -398,6 +400,7 @@ main {
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
     .home-container {
+        /* Styles elements inside div to appear next to each other */
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -443,6 +446,7 @@ main {
     .question-heading {
         font-size: 1.5rem;
         text-align: center;
+        /* Sets the minimum width the element can take up */
         min-width: 50rem;
     }
 
