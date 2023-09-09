@@ -183,13 +183,13 @@ For the font, I used Poppins font family as it fit best into the design and was 
 
 #### HTML
 
-index.html
+##### index.html
 
 ![W3C HTML Validator](README-images/index-html-page-w3c-validator.png)
 
 * No errors were returned when passing through the official [W3C validation](https://validator.w3.org/)
 
-quizguide.html
+##### quizguide.html
 
 ![W3C HTML Validator](README-images/quiz-guide-html-page-w3c-validator.png)
 
@@ -203,13 +203,13 @@ quizguide.html
 
 #### JavaScript
 
-questions.js
+##### questions.js
 
 ![JSHint JavaScript Validator](README-images/jshint-validator-questions-js.png)
 
 * No errors were returned when passing through the official [JSHint JavaScript Validator](https://jshint.com/)
 
-script.js
+##### script.js
 
 ![JSHint JavaScript Validator](README-images/jshint-validator-script-js.png)
 
@@ -263,13 +263,20 @@ Manual testing was conducted on mobile, tablet, laptop and desktop.
 
 The website works well and is responsive on the following mobiles and tablets (these were tested manually):
 
-* Samsung Galaxy A34 - There is an issue with html pages on this device a little bit of space appearing when you go to Quiz Guide page. To get rid of that, you need to pull the screen down
+<details><summary><b>Samsung Galaxy A34</b></summary>
 
-![Manual testing](README-images/samsung-galaxy-a-thirty-four.jpg)
+![Samsung Galaxy A34](README-images/samsung-galaxy-a-thirty-four.jpg)
+</details><br/>
 
-* OPPO A12 - There is no issues with the screen on this device, however the quiz elements are too big for this screen whixh means they are not responsive enough
+There is an issue with html pages on this device a little bit of space appearing when you go to Quiz Guide page. To get rid of that, you need to pull the screen down
 
-![Manual testing](README-images/oppo-a-twelve.jpg)
+<details><summary><b>Oppo A12</b></summary>
+
+![Oppo A12](README-images/oppo-a-twelve.jpg)
+</details><br/>
+
+There is no issues with the screen on this device, however the quiz elements are too big for this screen whixh means they are not responsive enough
+
 * Samsung Galaxy S8+
 * iPad
 
