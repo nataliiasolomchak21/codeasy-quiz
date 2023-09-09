@@ -251,6 +251,37 @@ Lighthouse (Chrome's developer tool) was used to assess the performance of the w
   
 ![Lighthouse score for desktops](README-images/quiz-guide-page-desktop-lighthouse.png)
 
+### Manual Testing
+
+Manual testing was conducted on mobile, tablet, laptop and desktop.
+
+![Manual testing](README-images/manual-testing.png)
+
+* The only issue is that on tablet the "Start Quiz" button is being difficult to click on. The reason for this is unknown.
+
+#### Screen sizes
+
+The website works well and is responsive on the following mobiles and tablets (these were tested manually):
+
+* Samsung Galaxy A34 - There is an issue with html pages on this device a little bit of space appearing when you go to Quiz Guide page. To get rid of that, you need to pull the screen down
+
+![Manual testing](README-images/samsung-galaxy-a-thirty-four.jpg)
+
+* OPPO A12 - There is no issues with the screen on this device, however the quiz elements are too big for this screen whixh means they are not responsive enough
+
+![Manual testing](README-images/oppo-a-twelve.jpg)
+* Samsung Galaxy S8+
+* iPad
+
+### Browsers
+
+The website functions in the following browsers:
+
+* Chrome
+* Opera
+* Microsoft Edge
+* Firefox
+
 
 ## Technologies Used
 
