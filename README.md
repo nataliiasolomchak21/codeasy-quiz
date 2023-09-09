@@ -291,17 +291,19 @@ The website functions in the following browsers:
 
 ### Unfixed Bugs
 
-* There is an issue with html pages on this device a little bit of space appearing when you go to Quiz Guide page. To get rid of that, you need to pull the screen down
 <details><summary><b>Unfixed bug with reduntant space</b></summary>
 
 ![Unfixed bug with reduntant space](README-images/samsung-galaxy-a-thirty-four.jpg)
-</details><br/>
+</details>
 
-* On a laptop, the image in Home section is being positioned too low although the positioning for the div it is in is centered.
-<details><summary><b>Unfixed bug with reduntant space</b></summary>
+* There is an issue with html pages on this device a little bit of space appearing when you go to Quiz Guide page. To get rid of that, you need to pull the screen down
+
+<details><summary><b>Unfixed bug with image</b></summary>
 
 ![Unfixed bug with image](README-images/laptop-bug.png)
-</details><br/>
+</details>
+
+* On a laptop, the image in Home section is being positioned too low although the positioning for the div it is in is centered.
 
 ### Fixed Bugs
 
