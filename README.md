@@ -215,6 +215,42 @@ script.js
 
 * No errors were returned when passing through the official [JSHint JavaScript Validator](https://jshint.com/). The questions variable was undefined as it was declared in another js file.
 
+### Accessibility
+
+To ensure that the website was accessible to all users the following steps were taken:
+
+* An image has clear alt attribute that explains it is about.
+* Aria-labels were included to all the internal and external links as well as buttons to provide the purpose for them for screen readers.
+
+### SEO
+
+Meta tags were included in a head of html file to tell the search engines and users more about the website and the information it contains.
+
+![Meta tags](README-images/meta-tags.png)
+
+### Lighthouse
+
+Lighthouse (Chrome's developer tool) was used to assess the performance of the website across mobiles and desktops.
+
+#### index.html
+
+* Mobile
+
+![Screenshot of Lighthouse score for mobile devices](README-images/home-page-mobile-lighthouse.png)
+
+* Desktop
+  
+![Lighthouse score for desktops](README-images/home-page-desktop-lighthouse.png)
+#### quizguide.html
+
+* Mobile
+
+![Screenshot of Lighthouse score for mobile devices](README-images/quiz-guide-page-mobile-lighthouse.png)
+
+* Desktop
+  
+![Lighthouse score for desktops](README-images/quiz-guide-page-desktop-lighthouse.png)
+
 
 ## Technologies Used
 
